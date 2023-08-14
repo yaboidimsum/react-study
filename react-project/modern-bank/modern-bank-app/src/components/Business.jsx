@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
@@ -9,7 +10,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     } feature-card`}
   >
     <div
-      className={`h-[64px] w-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`h-[64px] w-[64px] rounded-full ${styles.flexCenter} bg-dimBlue `}
     >
       <img src={icon} alt="icon" className="h-[50%] w-[50%] object-contain" />
     </div>

@@ -110,6 +110,8 @@
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
 }
 
 .feedback-container .feedback-card:last-child {
